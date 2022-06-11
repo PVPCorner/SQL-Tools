@@ -1,0 +1,14 @@
+name: Build
+on:
+  push:
+    branches:
+      - main
+  commit:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Checkout the code
+          uses: actions/checkout@v2
+        - name: Build the code
+          run: ./gradlew build
