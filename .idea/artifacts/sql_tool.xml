@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sql-tool">
+    <output-path>$PROJECT_DIR$/releases/sql-tool</output-path>
+    <root id="archive" name="sql-tool.jar">
+      <element id="module-output" name="SQL-Tool.main" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.21" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21" />
+      <element id="library" level="project" name="Gradle: org.jetbrains:annotations:13.0" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
